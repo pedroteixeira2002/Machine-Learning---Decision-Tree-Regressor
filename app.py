@@ -1,14 +1,14 @@
-from flask import Flask, request, render_template, jsonify
 import joblib
 import pandas as pd
+from flask import Flask, request, render_template, jsonify
 
 app = Flask(__name__)
 
 # Load the trained model
-model = joblib.load('decision_tree_model.pkl')
+model = joblib.load('models/decision_tree_model.pkl')
 
 # Load the feature columns
-feature_columns = joblib.load('feature_columns.pkl')
+feature_columns = joblib.load('models/feature_columns.pkl')
 
 
 @app.route('/')

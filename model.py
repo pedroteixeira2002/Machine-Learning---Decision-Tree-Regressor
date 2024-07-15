@@ -1,10 +1,10 @@
+import joblib
 import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.tree import DecisionTreeRegressor
-import joblib
 
 # Sample DataFrame (replace with your actual DataFrame)
-data = pd.read_csv('filtered_data.csv')
+data = pd.read_csv('/data/filtered_data.csv')
 df = pd.DataFrame(data)
 
 # Encode categorical variables
@@ -23,5 +23,5 @@ model = DecisionTreeRegressor(random_state=42)
 model.fit(X_train, y_train)
 
 # Save the trained model
-joblib.dump(model, 'decision_tree_model.pkl')
-joblib.dump(X_train.columns.tolist(), 'feature_columns.pkl')
+joblib.dump(model, '/models/decision_tree_model.pkl')
+joblib.dump(X_train.columns.tolist(), '/models/feature_columns.pkl')

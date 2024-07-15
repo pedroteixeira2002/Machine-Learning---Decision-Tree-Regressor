@@ -1,0 +1,356 @@
+|--- experience_level_SE <= 0.50
+|   |--- experience_level_EX <= 0.50
+|   |   |--- experience_level_MI <= 0.50
+|   |   |   |--- company_size_M <= 0.50
+|   |   |   |   |--- job_title_Machine Learning Engineer <= 0.50
+|   |   |   |   |   |--- company_size_S <= 0.50
+|   |   |   |   |   |   |--- employment_type_PT <= 0.50
+|   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |--- job_title_Data Scientist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |   |   |   |   |   |--- value: [36011.50]
+|   |   |   |   |   |   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |   |   |   |   |   |--- job_title_Data Engineer <= 0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [48007.00]
+|   |   |   |   |   |   |   |   |   |   |--- job_title_Data Engineer >  0.50
+|   |   |   |   |   |   |   |   |   |   |   |--- value: [45390.00]
+|   |   |   |   |   |   |   |   |--- job_title_Data Scientist >  0.50
+|   |   |   |   |   |   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |   |   |   |   |   |--- value: [91000.00]
+|   |   |   |   |   |   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |   |   |   |   |   |--- value: [40885.50]
+|   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |--- job_title_Data Scientist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- job_title_Data Engineer <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [82000.00]
+|   |   |   |   |   |   |   |   |   |--- job_title_Data Engineer >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [64717.40]
+|   |   |   |   |   |   |   |   |--- job_title_Data Scientist >  0.50
+|   |   |   |   |   |   |   |   |   |--- value: [48125.00]
+|   |   |   |   |   |   |--- employment_type_PT >  0.50
+|   |   |   |   |   |   |   |--- value: [21688.00]
+|   |   |   |   |   |--- company_size_S >  0.50
+|   |   |   |   |   |   |--- job_title_Data Scientist <= 0.50
+|   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |--- value: [125404.00]
+|   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |--- employment_type_FT <= 0.50
+|   |   |   |   |   |   |   |   |   |--- value: [34320.00]
+|   |   |   |   |   |   |   |   |--- employment_type_FT >  0.50
+|   |   |   |   |   |   |   |   |   |--- job_title_Data Engineer <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [52398.40]
+|   |   |   |   |   |   |   |   |   |--- job_title_Data Engineer >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [65000.00]
+|   |   |   |   |   |   |--- job_title_Data Scientist >  0.50
+|   |   |   |   |   |   |   |--- employment_type_PT <= 0.50
+|   |   |   |   |   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |   |   |   |   |--- value: [66863.00]
+|   |   |   |   |   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |   |   |--- value: [86363.00]
+|   |   |   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |   |   |--- value: [97500.00]
+|   |   |   |   |   |   |   |--- employment_type_PT >  0.50
+|   |   |   |   |   |   |   |   |--- value: [21669.00]
+|   |   |   |   |--- job_title_Machine Learning Engineer >  0.50
+|   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |--- company_size_S <= 0.50
+|   |   |   |   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |   |   |   |--- value: [83000.00]
+|   |   |   |   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |   |   |   |--- value: [182500.00]
+|   |   |   |   |   |   |--- company_size_S >  0.50
+|   |   |   |   |   |   |   |--- value: [81000.00]
+|   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |--- company_size_S <= 0.50
+|   |   |   |   |   |   |   |--- value: [32546.50]
+|   |   |   |   |   |   |--- company_size_S >  0.50
+|   |   |   |   |   |   |   |--- value: [67486.50]
+|   |   |   |--- company_size_M >  0.50
+|   |   |   |   |--- job_title_Machine Learning Engineer <= 0.50
+|   |   |   |   |   |--- job_title_Data Engineer <= 0.50
+|   |   |   |   |   |   |--- job_title_Data Scientist <= 0.50
+|   |   |   |   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |   |   |   |--- employment_type_FT <= 0.50
+|   |   |   |   |   |   |   |   |   |--- value: [69200.00]
+|   |   |   |   |   |   |   |   |--- employment_type_FT >  0.50
+|   |   |   |   |   |   |   |   |   |--- value: [87367.86]
+|   |   |   |   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |   |--- value: [47494.00]
+|   |   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |   |--- value: [85462.76]
+|   |   |   |   |   |   |--- job_title_Data Scientist >  0.50
+|   |   |   |   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |   |   |   |--- employment_type_PT <= 0.50
+|   |   |   |   |   |   |   |   |   |--- value: [97566.47]
+|   |   |   |   |   |   |   |   |--- employment_type_PT >  0.50
+|   |   |   |   |   |   |   |   |   |--- value: [115388.00]
+|   |   |   |   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |   |--- employment_type_FT <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [100000.00]
+|   |   |   |   |   |   |   |   |   |--- employment_type_FT >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [49723.33]
+|   |   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |   |--- employment_type_PT <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [95450.19]
+|   |   |   |   |   |   |   |   |   |--- employment_type_PT >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [110000.00]
+|   |   |   |   |   |--- job_title_Data Engineer >  0.50
+|   |   |   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |   |   |--- employment_type_FT <= 0.50
+|   |   |   |   |   |   |   |   |--- value: [69200.00]
+|   |   |   |   |   |   |   |--- employment_type_FT >  0.50
+|   |   |   |   |   |   |   |   |--- value: [115249.02]
+|   |   |   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |--- value: [18000.00]
+|   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |--- value: [77228.35]
+|   |   |   |   |--- job_title_Machine Learning Engineer >  0.50
+|   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |   |   |--- value: [112310.78]
+|   |   |   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |   |   |--- value: [23333.50]
+|   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |--- employment_type_FT <= 0.50
+|   |   |   |   |   |   |   |--- value: [100000.00]
+|   |   |   |   |   |   |--- employment_type_FT >  0.50
+|   |   |   |   |   |   |   |--- value: [138520.00]
+|   |   |--- experience_level_MI >  0.50
+|   |   |   |--- job_title_Machine Learning Engineer <= 0.50
+|   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |--- job_title_Data Scientist <= 0.50
+|   |   |   |   |   |   |--- job_title_Data Engineer <= 0.50
+|   |   |   |   |   |   |   |--- company_size_S <= 0.50
+|   |   |   |   |   |   |   |   |--- company_size_M <= 0.50
+|   |   |   |   |   |   |   |   |   |--- value: [94000.00]
+|   |   |   |   |   |   |   |   |--- company_size_M >  0.50
+|   |   |   |   |   |   |   |   |   |--- value: [101210.36]
+|   |   |   |   |   |   |   |--- company_size_S >  0.50
+|   |   |   |   |   |   |   |   |--- value: [58000.00]
+|   |   |   |   |   |   |--- job_title_Data Engineer >  0.50
+|   |   |   |   |   |   |   |--- company_size_M <= 0.50
+|   |   |   |   |   |   |   |   |--- value: [122001.77]
+|   |   |   |   |   |   |   |--- company_size_M >  0.50
+|   |   |   |   |   |   |   |   |--- value: [127190.31]
+|   |   |   |   |   |--- job_title_Data Scientist >  0.50
+|   |   |   |   |   |   |--- company_size_S <= 0.50
+|   |   |   |   |   |   |   |--- company_size_M <= 0.50
+|   |   |   |   |   |   |   |   |--- value: [142308.73]
+|   |   |   |   |   |   |   |--- company_size_M >  0.50
+|   |   |   |   |   |   |   |   |--- employment_type_FT <= 0.50
+|   |   |   |   |   |   |   |   |   |--- value: [120000.00]
+|   |   |   |   |   |   |   |   |--- employment_type_FT >  0.50
+|   |   |   |   |   |   |   |   |   |--- value: [131016.89]
+|   |   |   |   |   |   |--- company_size_S >  0.50
+|   |   |   |   |   |   |   |--- value: [95000.00]
+|   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |--- company_size_M <= 0.50
+|   |   |   |   |   |   |--- company_size_S <= 0.50
+|   |   |   |   |   |   |   |--- job_title_Data Engineer <= 0.50
+|   |   |   |   |   |   |   |   |--- job_title_Data Scientist <= 0.50
+|   |   |   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |   |   |--- value: [38048.80]
+|   |   |   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |   |   |--- value: [88700.00]
+|   |   |   |   |   |   |   |   |--- job_title_Data Scientist >  0.50
+|   |   |   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |   |   |--- value: [82808.92]
+|   |   |   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |   |   |--- value: [75330.88]
+|   |   |   |   |   |   |   |--- job_title_Data Engineer >  0.50
+|   |   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |   |--- employment_type_PT <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [75802.14]
+|   |   |   |   |   |   |   |   |   |--- employment_type_PT >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [52533.00]
+|   |   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |   |--- employment_type_PT <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [110366.25]
+|   |   |   |   |   |   |   |   |   |--- employment_type_PT >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [69741.00]
+|   |   |   |   |   |   |--- company_size_S >  0.50
+|   |   |   |   |   |   |   |--- job_title_Data Scientist <= 0.50
+|   |   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |   |--- value: [65844.00]
+|   |   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |   |--- job_title_Data Engineer <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [20000.00]
+|   |   |   |   |   |   |   |   |   |--- job_title_Data Engineer >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [43151.50]
+|   |   |   |   |   |   |   |--- job_title_Data Scientist >  0.50
+|   |   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |   |--- value: [56735.50]
+|   |   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |   |--- value: [62962.56]
+|   |   |   |   |   |--- company_size_M >  0.50
+|   |   |   |   |   |   |--- job_title_Data Scientist <= 0.50
+|   |   |   |   |   |   |   |--- job_title_Data Engineer <= 0.50
+|   |   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |   |--- value: [53682.00]
+|   |   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |   |--- value: [92329.98]
+|   |   |   |   |   |   |   |--- job_title_Data Engineer >  0.50
+|   |   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |   |--- value: [80976.00]
+|   |   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |   |--- value: [113317.33]
+|   |   |   |   |   |   |--- job_title_Data Scientist >  0.50
+|   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |--- value: [50416.00]
+|   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |--- employment_type_FL <= 0.50
+|   |   |   |   |   |   |   |   |   |--- employment_type_PT <= 0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [120679.39]
+|   |   |   |   |   |   |   |   |   |--- employment_type_PT >  0.50
+|   |   |   |   |   |   |   |   |   |   |--- value: [122328.00]
+|   |   |   |   |   |   |   |   |--- employment_type_FL >  0.50
+|   |   |   |   |   |   |   |   |   |--- value: [100000.00]
+|   |   |   |--- job_title_Machine Learning Engineer >  0.50
+|   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |--- company_size_S <= 0.50
+|   |   |   |   |   |   |--- company_size_M <= 0.50
+|   |   |   |   |   |   |   |--- value: [207440.00]
+|   |   |   |   |   |   |--- company_size_M >  0.50
+|   |   |   |   |   |   |   |--- value: [170936.89]
+|   |   |   |   |   |--- company_size_S >  0.50
+|   |   |   |   |   |   |--- value: [110000.00]
+|   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |--- company_size_M <= 0.50
+|   |   |   |   |   |   |--- employment_type_FT <= 0.50
+|   |   |   |   |   |   |   |--- value: [142500.00]
+|   |   |   |   |   |   |--- employment_type_FT >  0.50
+|   |   |   |   |   |   |   |--- company_size_S <= 0.50
+|   |   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |   |--- value: [101310.83]
+|   |   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |   |--- value: [89100.00]
+|   |   |   |   |   |   |   |--- company_size_S >  0.50
+|   |   |   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |   |   |--- value: [74000.00]
+|   |   |   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |   |   |--- value: [67760.67]
+|   |   |   |   |   |--- company_size_M >  0.50
+|   |   |   |   |   |   |--- value: [129117.12]
+|   |--- experience_level_EX >  0.50
+|   |   |--- job_title_Machine Learning Engineer <= 0.50
+|   |   |   |--- job_title_Data Engineer <= 0.50
+|   |   |   |   |--- job_title_Data Scientist <= 0.50
+|   |   |   |   |   |--- remote_ratio <= 50.00
+|   |   |   |   |   |   |--- value: [115954.55]
+|   |   |   |   |   |--- remote_ratio >  50.00
+|   |   |   |   |   |   |--- value: [105714.29]
+|   |   |   |   |--- job_title_Data Scientist >  0.50
+|   |   |   |   |   |--- company_size_M <= 0.50
+|   |   |   |   |   |   |--- value: [100416.00]
+|   |   |   |   |   |--- company_size_M >  0.50
+|   |   |   |   |   |   |--- remote_ratio <= 50.00
+|   |   |   |   |   |   |   |--- value: [194767.86]
+|   |   |   |   |   |   |--- remote_ratio >  50.00
+|   |   |   |   |   |   |   |--- value: [190876.31]
+|   |   |   |--- job_title_Data Engineer >  0.50
+|   |   |   |   |--- remote_ratio <= 50.00
+|   |   |   |   |   |--- value: [177110.41]
+|   |   |   |   |--- remote_ratio >  50.00
+|   |   |   |   |   |--- value: [218874.04]
+|   |   |--- job_title_Machine Learning Engineer >  0.50
+|   |   |   |--- remote_ratio <= 50.00
+|   |   |   |   |--- value: [243304.55]
+|   |   |   |--- remote_ratio >  50.00
+|   |   |   |   |--- value: [197140.00]
+|--- experience_level_SE >  0.50
+|   |--- job_title_Machine Learning Engineer <= 0.50
+|   |   |--- job_title_Data Scientist <= 0.50
+|   |   |   |--- job_title_Data Engineer <= 0.50
+|   |   |   |   |--- company_size_S <= 0.50
+|   |   |   |   |   |--- company_size_M <= 0.50
+|   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |   |   |   |--- value: [161225.00]
+|   |   |   |   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |   |   |   |--- value: [63831.00]
+|   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |--- value: [162250.00]
+|   |   |   |   |   |--- company_size_M >  0.50
+|   |   |   |   |   |   |--- remote_ratio <= 50.00
+|   |   |   |   |   |   |   |--- value: [121067.89]
+|   |   |   |   |   |   |--- remote_ratio >  50.00
+|   |   |   |   |   |   |   |--- employment_type_FT <= 0.50
+|   |   |   |   |   |   |   |   |--- value: [90000.00]
+|   |   |   |   |   |   |   |--- employment_type_FT >  0.50
+|   |   |   |   |   |   |   |   |--- value: [124434.51]
+|   |   |   |   |--- company_size_S >  0.50
+|   |   |   |   |   |--- value: [88364.00]
+|   |   |   |--- job_title_Data Engineer >  0.50
+|   |   |   |   |--- company_size_S <= 0.50
+|   |   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |   |--- company_size_M <= 0.50
+|   |   |   |   |   |   |   |--- value: [161834.64]
+|   |   |   |   |   |   |--- company_size_M >  0.50
+|   |   |   |   |   |   |   |--- value: [158222.05]
+|   |   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |--- value: [62818.00]
+|   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |--- company_size_M <= 0.50
+|   |   |   |   |   |   |   |   |--- value: [157751.60]
+|   |   |   |   |   |   |   |--- company_size_M >  0.50
+|   |   |   |   |   |   |   |   |--- value: [153574.49]
+|   |   |   |   |--- company_size_S >  0.50
+|   |   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |   |--- value: [33511.00]
+|   |   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |--- value: [76833.00]
+|   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |--- value: [115000.00]
+|   |   |--- job_title_Data Scientist >  0.50
+|   |   |   |--- company_size_M <= 0.50
+|   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |--- company_size_S <= 0.50
+|   |   |   |   |   |   |--- value: [159099.33]
+|   |   |   |   |   |--- company_size_S >  0.50
+|   |   |   |   |   |   |--- value: [157745.67]
+|   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |--- company_size_S <= 0.50
+|   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |--- value: [109322.67]
+|   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |--- value: [136759.60]
+|   |   |   |   |   |--- company_size_S >  0.50
+|   |   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |   |--- value: [76508.00]
+|   |   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |   |--- value: [87579.33]
+|   |   |   |--- company_size_M >  0.50
+|   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |--- employment_type_FT <= 0.50
+|   |   |   |   |   |   |--- value: [120869.00]
+|   |   |   |   |   |--- employment_type_FT >  0.50
+|   |   |   |   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |   |   |   |--- value: [167482.13]
+|   |   |   |   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |   |   |   |--- value: [134960.00]
+|   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |--- value: [170178.14]
+|   |--- job_title_Machine Learning Engineer >  0.50
+|   |   |--- company_size_M <= 0.50
+|   |   |   |--- remote_ratio <= 25.00
+|   |   |   |   |--- value: [189742.27]
+|   |   |   |--- remote_ratio >  25.00
+|   |   |   |   |--- company_size_S <= 0.50
+|   |   |   |   |   |--- remote_ratio <= 75.00
+|   |   |   |   |   |   |--- value: [110495.75]
+|   |   |   |   |   |--- remote_ratio >  75.00
+|   |   |   |   |   |   |--- value: [142564.45]
+|   |   |   |   |--- company_size_S >  0.50
+|   |   |   |   |   |--- value: [83151.67]
+|   |   |--- company_size_M >  0.50
+|   |   |   |--- remote_ratio <= 50.00
+|   |   |   |   |--- value: [203373.09]
+|   |   |   |--- remote_ratio >  50.00
+|   |   |   |   |--- value: [192254.38]
+
